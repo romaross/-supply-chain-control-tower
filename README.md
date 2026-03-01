@@ -119,7 +119,7 @@ The Streamlit cockpit (`app/app.py`) exposes a single, consolidated view over al
 
 This is the view operations leaders use in daily stand‑ups to understand whether the network is behaving as expected or needs immediate attention.
 
-> ![Control tower dashboard](screenshots/dashboard.png)
+> ![Control tower dashboard](screenshots/scenario.png)
 > *Figure 1 – Executive overview of network health with KPIs and traffic‑light status.*
 
 ### B. KPI Monitoring
@@ -154,7 +154,7 @@ This is where planners and coordinators see a short list of actions that are wor
 
 This is used in planning and review sessions to reason about potential impact of operational changes (e.g., adding buffer days or adjusting carrier mix).
 
-> ![Scenario planning](screenshots/scenario.png)
+> ![Scenario planning](screenshots/dashboard.png)
 > *Figure 3 – Directional scenario view to reason about volume, reliability, and buffer trade‑offs.*
 
 ### F. Alerts & Reporting
