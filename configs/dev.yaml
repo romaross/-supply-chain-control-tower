@@ -1,0 +1,39 @@
+data:
+  raw_path: "data/raw/orders_synthetic.csv"
+  generated: true
+  n_days: 120
+  n_orders_per_day: 500
+  random_seed: 42
+
+pipeline:
+  run_anomaly: true
+
+outputs:
+  kpi_daily: "outputs/kpi_daily.csv"
+  anomalies: "outputs/anomalies.csv"
+  report_html: "outputs/report_latest.html"
+  alerts_log: "outputs/alerts.log"
+  pipeline_log: "outputs/logs/pipeline.log"
+
+data_quality:
+  max_missing_pct: 5
+  date_range_validation: true
+  earliest_date: "2020-01-01"
+  latest_date: "2030-12-31"
+
+monitoring:
+  rolling_window_days: 28
+  min_history_days: 14
+  z_threshold_low: 1.5
+  z_threshold_high: 3.0
+  anomaly_window_days: 7
+
+report:
+  anomaly_window_days: 14
+
+logging:
+  level: "INFO"
+  save_pipeline_logs: true
+
+runtime:
+  fail_fast: true
