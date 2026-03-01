@@ -155,8 +155,6 @@ This is where planners and coordinators see a short list of actions that are wor
 
 This is used in planning and review sessions to reason about potential impact of operational changes (e.g., adding buffer days or adjusting carrier mix).
 
-> ![Scenario planning](screenshots/anomalies.png)
-
 
 ### F. Alerts & Reporting
 
