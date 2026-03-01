@@ -31,6 +31,52 @@ Key business outcomes:
 
 The system is intentionally simple: deterministic batch runs, transparent CSV outputs, and a thin UI layer. This makes it easy to audit, extend, and integrate into existing internal processes.
 
+
+## Case Studies (How Ops Teams Use It)
+
+These are realistic examples of how a control-tower team would use the cockpit outputs to make decisions during daily operations.  
+Numbers are **directional** and meant for decision framing, not accounting accuracy.
+
+### Case 1 — Peak Week (Volume +20%)
+
+**Situation:** A seasonal campaign drives a sudden volume increase.  
+In practice, pressure often shows up first as a **2–3 day drift in Late %**, followed by OTIF degradation if capacity is not adjusted.
+
+**What the control tower sees**
+- KPI trend: Late % rising over several days (early warning)
+- Anomalies: HIGH severity flags on Late % / Avg lead time
+- Risk: missed cutoffs, sorting/dispatch bottlenecks, and lane congestion
+
+**Typical operational actions**
+- Add short-term capacity (extra departures, overtime, temporary labor)
+- Tighten cutoff discipline and prioritize critical lanes / key customers
+- Use expediting selectively (only where it prevents SLA breaches, not as a blanket fix)
+
+**Decision framing (service vs cost)**
+- It’s usually cheaper to buy capacity early than to react later with broad expediting.
+- A small buffer on the most volatile lanes can stabilize service during the peak window.
+
+---
+
+### Case 2 — Carrier Reliability Drop
+
+**Situation:** A major carrier underperforms for a week due to constraints (capacity, strikes, weather, network disruption).  
+These events typically create a **localized late-delivery spike** before becoming visible at network level.
+
+**What the control tower sees**
+- KPI shift: OTIF down, Late % up, SLA violations increasing
+- Anomalies: repeated HIGH severity flags tied to a region/carrier pattern
+- Alerts: anomaly clusters within a short window trigger escalation
+
+**Typical operational actions**
+- Rebalance allocation away from the weakest carrier (temporary mix change)
+- Protect strategic accounts with more reliable partners or targeted express options
+- Start a carrier performance review with a 24–48h stabilization plan (root cause + corrective actions)
+
+**Decision framing (service vs cost)**
+- Short-term cost may increase (premium carriers / selected expediting),
+  but service stability improves and prevents downstream penalties and customer churn.
+
 ---
 
 ## 3. Key Capabilities
