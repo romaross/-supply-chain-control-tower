@@ -129,7 +129,7 @@ This is the view operations leaders use in daily stand‑ups to understand wheth
 
 This section supports performance reviews, weekly operations reviews, and investigations into whether recent initiatives are improving stability.
 
-> ![Anomaly and KPI monitoring](screenshots/anomalies.png)
+> ![Anomaly and KPI monitoring](screenshots/dashboard.png
 > *Figure 2 – KPI trend and anomaly monitoring for proactive service management.*
 
 ### C. Anomaly Monitoring
@@ -154,7 +154,7 @@ This is where planners and coordinators see a short list of actions that are wor
 
 This is used in planning and review sessions to reason about potential impact of operational changes (e.g., adding buffer days or adjusting carrier mix).
 
-> ![Scenario planning](screenshots/dashboard.png)
+> ![Scenario planning](screenshots/anomalies.png)
 > *Figure 3 – Directional scenario view to reason about volume, reliability, and buffer trade‑offs.*
 
 ### F. Alerts & Reporting
