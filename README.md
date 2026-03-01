@@ -129,7 +129,7 @@ This is the view operations leaders use in daily stand‑ups to understand wheth
 
 This section supports performance reviews, weekly operations reviews, and investigations into whether recent initiatives are improving stability.
 
-> ![Anomaly and KPI monitoring](screenshots/dashboard.png
+> ![Anomaly and KPI monitoring](screenshots/dashboard.png)
 > *Figure 2 – KPI trend and anomaly monitoring for proactive service management.*
 
 ### C. Anomaly Monitoring
