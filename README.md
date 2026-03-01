@@ -138,6 +138,7 @@ This section supports performance reviews, weekly operations reviews, and invest
 - Severity filter (ALL / LOW / HIGH).
 
 Control tower analysts use this to focus on the periods and KPIs that behave differently from historical norms, instead of manually scanning all time series.
+> ![Scenario planning](screenshots/anomalies.png)
 
 ### D. Decision Support
 
@@ -155,7 +156,7 @@ This is where planners and coordinators see a short list of actions that are wor
 This is used in planning and review sessions to reason about potential impact of operational changes (e.g., adding buffer days or adjusting carrier mix).
 
 > ![Scenario planning](screenshots/anomalies.png)
-> *Figure 3 – Directional scenario view to reason about volume, reliability, and buffer trade‑offs.*
+
 
 ### F. Alerts & Reporting
 
